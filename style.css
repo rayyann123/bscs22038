@@ -205,3 +205,51 @@ ul {
         font-size: 18px;
     }
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Other styling as needed */
+
+
+#home {
+    background-color: #f0f8ff; /* Light blue */
+    padding: 40px;
+    text-align: center;
+    color: #333; 
+}
+
+.profile-pic {
+    width: 150px; /* Set the width of the image */
+    height: 150px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 20px; /* Space between image and name */
+    object-fit: cover; /* Ensure the image fits within the circle */
+}
